@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>addon 1</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .back {
+        background-color: blue;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+      }
+      .item {
+        color: white;
+        background-color: transparent;
+        font-size: 18px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 14px 20px;
+      }
+      .title {
+        font-weight: 600;
+      }
+      item:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+   <nav class="back">
+     <div class="group">
+       <a class="title">addon 1</a>
+     </div>
+     <div class="group">
+       <a class="item" href="index.html">back</a>
+       <a class="item" href="addon1.html">addon 2</a>
+     </div>
+   </nav>
+   <form action="download.php" method="GET">
+    <input type="hidden" name="file" value="camping mod.mcaddon.zip">
+    <button type="submit">mod camping</button>
+</form>
+  </body>
+</html>
